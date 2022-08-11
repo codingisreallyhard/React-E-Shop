@@ -6,7 +6,10 @@
   margin: auto;
   margin-bottom: 4rem;
   overflow: hidden;
-  width: 80%;
+  width: 70%;
+  max-height: 350px;
+  max-width: 250px;
+  /* min-height: 377px; */
 }
 
 .card:hover {

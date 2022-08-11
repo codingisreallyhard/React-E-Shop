@@ -1,14 +1,15 @@
 import React from "react";
+import classes from "./Buttons.module.css";
 
 const Buttons = ({ setFilteredItems, menuItems, favorites, filterItem }) => {
   return (
     <>
       <>
-        <div className="d-flex justify-content-center">
+        <div className={classes.container}>
           {menuItems.map((Val, id) => {
             return (
               <button
-                className="btn-dark text-white p-1 px-2 mx-5 btn fw-bold"
+                className={classes.filterbtns}
                 key={id}
                 onClick={() => filterItem(Val)}
               >
@@ -17,7 +18,7 @@ const Buttons = ({ setFilteredItems, menuItems, favorites, filterItem }) => {
             );
           })}
           <button
-            className="btn-dark text-white p-1 px-3 mx-5 fw-bold btn"
+            className={classes.filterbtns}
             onClick={() => setFilteredItems(favorites)}
           >
             All

@@ -35,15 +35,15 @@ const Products = (props) => {
           <div>
             <div className={classes.imgBox}>
               <img
-                src={item.image}
+                src={`${item.image}`}
                 alt="mouse corsair"
                 className={classes.mouse}
               />
             </div>
 
             <div class="contentBox">
-              <h3 className={classes.h3bordertop}>{item.name}</h3>
-              <h2 class="price">{item.price}$</h2>
+              <h4 className={classes.h3bordertop}>{item.name}</h4>
+              <h4 class="price">{item.price}$</h4>
             </div>
           </div>
           <div className={classes.flexbuttons}>
@@ -55,7 +55,11 @@ const Products = (props) => {
             </button>
 
             <button className={styles["my-button"]} onClick={() => onAdd(item)}>
-              <BsFillCartCheckFill />
+              {item.added === true ? (
+                <BsFillCartCheckFill />
+              ) : (
+                <AiOutlineShoppingCart />
+              )}
             </button>
           </div>
         </Card>

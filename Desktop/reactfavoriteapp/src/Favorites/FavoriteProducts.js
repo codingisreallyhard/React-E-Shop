@@ -7,7 +7,7 @@ const FavoriteProducts = (props) => {
     <div className="App">
       <h1>Favorite list</h1>
       <ul>
-        {favorites.map((item, i) =>
+        {filteredItems.map((item, i) =>
           item.favorite === true ? <div key={i}>{item.name}</div> : null
         )}
       </ul>

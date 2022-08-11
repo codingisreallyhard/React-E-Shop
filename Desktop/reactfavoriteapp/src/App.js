@@ -98,6 +98,8 @@ function App() {
           category: responseData[key].category,
           price: responseData[key].price,
           favorite: responseData[key].favorite,
+          added: responseData[key].added,
+          image: responseData[key].image,
         });
       }
 
@@ -134,10 +136,11 @@ function App() {
     const newFavorites = favorites.map((item) => {
       return item.id === id ? { ...item, favorite: !item.favorite } : item;
     });
-
+    const filteredItemsF = filteredItems.map((item) => {
+      return item.id === id ? { ...item, favorite: !item.favorite } : item;
+    });
     setFavorites(newFavorites);
-
-    console.log(favorites);
+    setFilteredItems(filteredItemsF);
     console.log(filteredItems);
   }
 
