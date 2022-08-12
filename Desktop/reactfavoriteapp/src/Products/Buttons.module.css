@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+  gap: 16px;
+}
+
+.filterbtns {
+  /* background: linear-gradient(to right, #196bca, #1100fa); */
+  background-color: #196bca;
+  color: #fff;
+  /* font-family: Trebuchet MS; */
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  padding: 5px 100px;
+  border: 0px solid #000;
+  border-radius: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.filterbtns:hover {
+  /* background: linear-gradient(to right, #5482d0, #7d5ee3); */
+  background-color: #070064;
+}
+.filterbtns:active {
+  transform: scale(0.95);
+}
