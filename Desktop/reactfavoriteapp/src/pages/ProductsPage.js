@@ -1,6 +1,7 @@
 import React from "react";
 
 import Products from "../Products/Products";
+import Footer from "../UI/Footer";
 import classes from "./ProductsPage.module.css";
 
 const ProductsPage = (props) => {
@@ -14,7 +15,6 @@ const ProductsPage = (props) => {
     data,
     filterItem,
     menuItems,
-    
   } = props;
   return (
     <div className={classes.containergridrows}>
@@ -28,8 +28,10 @@ const ProductsPage = (props) => {
         data={data}
         filterItem={filterItem}
         menuItems={menuItems}
-      
       />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

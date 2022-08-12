@@ -1,0 +1,25 @@
+.button {
+  float: left;
+  color: #cecece;
+  text-align: center;
+  padding: 36px 24px;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.flexspan {
+  display: flex;
+  gap: 15px;
+}

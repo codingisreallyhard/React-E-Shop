@@ -173,7 +173,7 @@ function App() {
   return (
     <section>
       <nav>
-        <Navigation showModalHandler={showModalHandler} />
+        <Navigation showModalHandler={showModalHandler} cartItems={cartItems} />
       </nav>
       {showModal && (
         <Cart

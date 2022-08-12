@@ -32,8 +32,10 @@ const Cart = (props) => {
                   {cartItems.map((item) => (
                     <div className={classes.flexbox}>
                       <div className={classes.idk}>
-                        <td className={classes.tdname}>{item.name}</td>
-
+                        <span className={classes.displayflex}>
+                          <img src={item.image} className={classes.cartimg} />
+                          <td className={classes.tdname}>{item.name}</td>
+                        </span>
                         <td className={classes.tdprice}>{item.price}</td>
                         <td className={classes.tdqty}>{item.qty}</td>
                         <td className={classes.tdtotal}>

@@ -18,8 +18,10 @@
   justify-content: center; */
   /* width: 90%; */
   height: 50%;
+  width: 50%;
   margin: auto;
-  right: 25%;
+  right: 20%;
+  left: 15%;
 
   background-color: white;
   padding: 1rem;
