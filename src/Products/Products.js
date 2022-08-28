@@ -53,10 +53,15 @@ const Products = (props) => {
                       <tbody>
                         <tr>
                           <th>Power Consumption</th>
-                          <th>Dimensions</th>
                         </tr>
                         <tr>
                           <td>{item.pwr}</td>
+                        </tr>
+                        <tr>
+                          <th>Dimensions</th>
+                        </tr>
+                        <tr>
+                          {" "}
                           <td>{item.dimensions}</td>
                         </tr>
                         <tr>
