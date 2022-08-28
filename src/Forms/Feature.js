@@ -1,13 +1,14 @@
 import React from "react";
-import { FaShuttleVan, FaBoxOpen } from "react-icons/fa";
-import { MdSupportAgent } from "react-icons/md";
+import FaShuttleVan from "react-icons/fa";
+import FaBoxOpen from "react-icons/fa";
+import MdSupportAgent from "react-icons/md";
 import "./Feature.css";
 
 function Feature() {
   return (
     <div className="gridfeature">
       <div className="feature">
-        <FaShuttleVan className="feature-icon" />
+        {/* <FaShuttleVan className="feature-icon" /> */}
         <p className="feature-title">
           We guarantee shipping for every product!
         </p>
@@ -17,7 +18,7 @@ function Feature() {
         </p>
       </div>
       <div className="feature">
-        <FaBoxOpen className="feature-icon" />
+        {/* <FaBoxOpen className="feature-icon" /> */}
         <p className="feature-title">We offer 14 days cash-back guarantee</p>
         <p className="feature-text">
           If the product is not what you wanted, you can return it without any
@@ -25,7 +26,7 @@ function Feature() {
         </p>
       </div>
       <div className="feature">
-        <MdSupportAgent className="feature-icon" />
+        {/* <MdSupportAgent className="feature-icon" /> */}
         <p className="feature-title">Support 24/7 for our clients</p>
         <p className="feature-text">
           We offer support for our clients 24/7, for the best results please
