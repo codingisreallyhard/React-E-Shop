@@ -1,0 +1,18 @@
+.cardfav {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  width: 70%;
+  height: 70%;
+  transition: all 0.4s;
+}
+
+.cardfav:hover {
+  transform: scale(1.1);
+
+  transition: all 1s;
+}

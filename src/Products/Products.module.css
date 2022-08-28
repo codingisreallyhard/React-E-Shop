@@ -1,0 +1,114 @@
+.li {
+  list-style: none;
+  font-size: 22px;
+
+  color: #111;
+  display: flex;
+  justify-content: center;
+}
+
+.ul {
+  text-align: center;
+}
+
+.meals {
+  max-width: 60rem;
+  width: 40%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.mouse {
+  width: 50%;
+  height: 50%;
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 2rem;
+  grid-auto-rows: 1fr;
+}
+
+.btns {
+  width: 100%;
+}
+
+.h3bordertop {
+  border-top: 1px solid #dee2e6;
+  max-height: 65px;
+  overflow: hidden;
+}
+
+.flexbuttons {
+  display: flex;
+  gap: 10px;
+}
+
+.productpagetitle {
+  font-size: 20px;
+  color: black;
+}
+
+.stock {
+  color: green;
+  text-align: center;
+  padding-top: 24px;
+  display: inline-block;
+}
+
+.wrapper .inside {
+  z-index: 9;
+  background: #92879b;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  border-radius: 0px 0px 200px 200px;
+  transition: all 0.5s, border-radius 2s, top 1s;
+  overflow: hidden;
+}
+
+.icon {
+  color: #fff;
+}
+
+.review {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mousefav {
+  width: 20%;
+  height: 20%;
+}
+
+.cardfav {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  width: 70%;
+  max-height: 399px;
+  transition: all 0.4s;
+  height: 90%;
+}
