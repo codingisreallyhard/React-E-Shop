@@ -26,12 +26,12 @@ function Acc() {
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header>
-            My account doesn't work, what should I do?
+            Can i return a product if it's not what i want?
           </Accordion.Header>
           <Accordion.Body>
-            If you are having trouble with logging in, registering or any other
-            technical difficulty we are sorry, please contact us at
-            lorem@lorem.com, our technical staff are 24/7 here for you.
+            Yes, all our products are returnable in 14 days, the list of items
+            that cannot be returned due to health, or are damaged will not be
+            returned, the policy of return is in our terms & privacy.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">

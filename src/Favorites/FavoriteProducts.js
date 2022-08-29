@@ -35,25 +35,32 @@ const FavoriteProducts = (props) => {
                     </i>
                   </div>
                   <div>
-                    <div class="contents">
-                      <table>
-                        <tbody>
-                          <tr>
-                            <th>Power Consumption</th>
-                            <th>Dimensions</th>
-                          </tr>
-                          <tr>
-                            <td>{item.pwr}</td>
-                            <td>{item.dimensions}</td>
-                          </tr>
-                          <tr>
-                            <th>Specifications</th>
-                          </tr>
-                          <tr>
-                            <td>{item.specs1}</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <div>
+                      <div className="contents">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <th>Power Consumption</th>
+                            </tr>
+                            <tr>
+                              <td>{item.pwr}</td>
+                            </tr>
+                            <tr>
+                              <th>Dimensions</th>
+                            </tr>
+                            <tr>
+                              {" "}
+                              <td>{item.dimensions}</td>
+                            </tr>
+                            <tr>
+                              <th>Specifications</th>
+                            </tr>
+                            <tr>
+                              <td>{item.specs1}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
