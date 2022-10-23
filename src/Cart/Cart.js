@@ -35,7 +35,7 @@ const Cart = (props) => {
                       <img
                         src={item.image}
                         className={classes.cartimg}
-                        alt="Product image in cart"
+                        alt="Product in cart"
                       />
                       {item.name}
                     </td>

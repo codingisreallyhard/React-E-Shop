@@ -7,8 +7,6 @@ import Navigation from "./UI/Navigation";
 import MainPage from "./pages/MainPage";
 import Cart from "./Cart/Cart";
 
-import "react-toastify/dist/ReactToastify.css";
-
 function App() {
   const [showModal, setShowModal] = useState(false);
   const [favorites, setFavorites] = useState([]);

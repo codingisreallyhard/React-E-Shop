@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "../UI/Card";
 import classes from "./Products.module.css";
 import styles from "../Global/Global.module.css";
@@ -10,7 +10,7 @@ import { VscCircleFilled } from "react-icons/vsc";
 import Buttons from "./Buttons";
 import { AiFillInfoCircle } from "react-icons/ai";
 
-import "./Products.scss";
+import "./Products.css";
 import ReactStars from "react-rating-stars-component";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
@@ -21,7 +21,7 @@ const Products = (props) => {
     onAdd,
     setFilteredItems,
     filteredItems,
-    handleRemoveFavorite,
+
     filterItem,
     menuItems,
   } = props;
@@ -61,7 +61,6 @@ const Products = (props) => {
                           <th>Dimensions</th>
                         </tr>
                         <tr>
-                          {" "}
                           <td>{item.dimensions}</td>
                         </tr>
                         <tr>
@@ -84,9 +83,9 @@ const Products = (props) => {
                 />
               </div>
 
-              <div class="contentBox">
+              <div className="contentBox">
                 <h4 className={classes.h3bordertop}>{item.name}</h4>
-                <h4 class="price">{item.price}$</h4>
+                <h4 className="price">{item.price}$</h4>
               </div>
 
               <div className={classes.review}>
