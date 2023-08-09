@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+  gap: 16px;
+}
+
+.filterbtns {
+  background: rgb(47, 44, 40);
+  background: radial-gradient(
+    circle,
+    rgba(47, 44, 40, 1) 93%,
+    rgba(20, 12, 5, 1) 100%
+  );
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+
+  text-decoration: none;
+  padding: 15px 100px;
+  border: 0px solid #000;
+  border-radius: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  color: #fff;
+}
+
+.filterbtns:hover {
+  background-color: rgb(31, 31, 31);
+  color: #cecece;
+}
+.filterbtns:active {
+  transform: scale(0.95);
+}
+
+.filter {
+  text-align: center;
+}

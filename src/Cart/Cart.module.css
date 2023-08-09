@@ -1,0 +1,93 @@
+.container {
+  padding: 6rem 0rem;
+}
+
+.idk {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  border-top: 1px solid #dee2e6;
+  align-items: center;
+}
+
+tbody td {
+  font-size: 17px;
+  text-align: center;
+  display: inline;
+  margin-top: 22px;
+}
+thead tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  flex-direction: row;
+  color: #666;
+  font-size: 0.8rem;
+  grid-auto-rows: 1fr;
+  overflow: auto;
+}
+
+.qty {
+  max-width: 2rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  gap: 20px;
+}
+
+.tdqty {
+  margin-left: 10px;
+}
+
+.tdtotal {
+  margin-left: 15px;
+}
+
+.tdbtnn {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+}
+
+.cartimg {
+  width: 50%;
+  height: 25%;
+}
+
+.closebutton {
+  font: inherit;
+  cursor: pointer;
+  background-color: #e8590c;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.closebutton:hover {
+  color: #fff;
+  background-color: #a3400b;
+}
+
+.tdname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
